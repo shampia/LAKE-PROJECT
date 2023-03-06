@@ -1,0 +1,22 @@
+{
+  "name": "lake-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shampia/LAKE-PROJECT.git"
+  },
+  "author": "Giorgi Shalamberidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shampia/LAKE-PROJECT/issues"
+  },
+  "homepage": "https://github.com/shampia/LAKE-PROJECT#readme",
+  "dependencies": {
+    "swiper": "^9.1.0"
+  }
+}

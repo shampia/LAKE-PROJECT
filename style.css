@@ -13,6 +13,10 @@ button {
     cursor: pointer;
 }
 
+nav {
+    
+}
+
 a:only-child{
     text-decoration: none;
 }
@@ -28,6 +32,7 @@ header {
     padding: 28px 0px;
     position: absolute;
     z-index: 99;
+    top: 0;
 }
 
 header .container {
@@ -107,6 +112,7 @@ header nav {
     position: absolute;
     background-color: #153e52;
     min-width: 160px;
+    top: 120%;
     z-index: 1;
 }
   
@@ -119,7 +125,6 @@ header nav {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: #153e52;
 }
 
 .logo-image{
@@ -303,6 +308,7 @@ section.intro{
 
 .cards-1{
     display: flex;
+    gap: 10px;
     margin-top: 180px;
 
 }
@@ -372,7 +378,8 @@ section.service h2:nth-child(2){
 }
 
 .Services-text{
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .Services-text h2{
@@ -380,7 +387,7 @@ section.service h2:nth-child(2){
     font-size: 24px;
     line-height: 32px;
     margin-top: 20px;
-    text-align: center  ;
+    text-align: center;
 }
 
 .Services-text p{
@@ -388,7 +395,7 @@ section.service h2:nth-child(2){
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
     max-width: 260px;
     margin-top: 10px;
-    text-align: justify ;
+    text-align: justify;
     margin-left: 25px;
 }
 
@@ -423,14 +430,18 @@ section.service h2:nth-child(2){
     border: 1px solid #14bf98;
     border-radius: 2px;
     background-color: #14bf98;
-    color: #ffffff ;
+    color: #ffffff;
     font-size: 14px;
     line-height: 0;
     text-decoration: none;
     transition: all 0.2s;
-    margin-left: 100px;
     margin-top: 50px;
     cursor: pointer;
+    align-self: center;
+}
+
+.Services-text span.sign-up a {
+    color: inherit;
 }
 
 .Services-text span.sign-up:hover{
@@ -508,6 +519,7 @@ section.buisnes{
     color: #787976;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
     padding-top: 10px;
+    display: none;
 }
 
 /*costumers*/

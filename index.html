@@ -330,7 +330,7 @@
                     </ul>
                 </div>
     
-                <div class="call-me-sign-up">
+                <form class="call-me-sign-up">
                     <div class="form-group">
                         <input type="text" class="form-control-input" placeholder="Name" required>
                     </div>
@@ -357,8 +357,8 @@
                         <label class="form-check-label" for="exampleCheck1">I agree with the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a></label>
                     </div>
     
-                    <button class="sign-up-btn">sign up</button>
-                </div>
+                    <button type='submit' class="sign-up-btn">sign up</button>
+                </form>
             
         </section>
 
@@ -372,64 +372,64 @@
                 </div>
     
                 <div class="projects-btns">
-                    <button class="buttons">ALL</button>
-                            <button class="buttons">DESIGN</button>
-                            <button class="buttons">DEVELOPMENT</button>
-                            <button class="buttons">MARKETING</button>
-                            <button class="buttons">SEO</button>
+                    <button class="buttons" target="all">ALL</button>
+                    <button class="buttons" target="design">DESIGN</button>
+                    <button class="buttons" target="development">DEVELOPMENT</button>
+                    <button class="buttons" target="marketing">MARKETING</button>
+                    <button class="buttons" target="seo">SEO</button>
                 </div>
     
                 <div class="projects">
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="design">
                         <img src="./img/project-1.jpg" />
                         <div class="projects-text">
                                 <h2>Online Banking</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="design">
                         <img src="./img/project-2.jpg" />
                         <div class="projects-text">
                             <h2>Clasic Industry</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
-                        <img src="./img/project-3.jpg" />
+                    <div class="projects-item" data-type="development">
+                        <img src="./img/project-3.jpg"/>
                         <div class="projects-text">
                             <h2>BoomBap Audio</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="development">
                         <img src="./img/project-4.jpg" />
                         <div class="projects-text">
                             <h2>Van Moose</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="marketing">
                         <img src="./img/project-5.jpg" />
                         <div class="projects-text">
                             <h2>Joy Moments</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="marketing">
                         <img src="./img/project-6.jpg" />
                         <div class="projects-text">
                             <h2>Spark Events</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="seo">
                         <img src="./img/project-7.jpg" />
                         <div class="projects-text">
                             <h2>Casual Wear</h2>
                         </div>
                     </div>
     
-                    <div class="projects-item">
+                    <div class="projects-item" data-type="seo">
                         <img src="./img/project-8.jpg" />
                         <div class="projects-text">
                             <h2>Zazoo Apps</h2>
@@ -529,20 +529,20 @@
                         <img src="./img/locatio.png" />
                         <h3>22nd Lorem ipsum dol, Sin Corinoma, RA 333333, TA</h3>
                     </div>
-                    <div class="contact-icone">
+                    <a  href="tel:+8172022126" class="contact-icone">
                         <img src="./img/phone.jpg" />
                         <p> +81 720 22 126</p>
-                    </div>
+                    </a>
     
                     <div class="contact-icone">
                         <img src="./img/phone.jpg" />
                         <p> +81 720 22 128</p>
                     </div>
     
-                    <div class="contact-icone">
+                    <a href="mailto:contact@site.com" class="contact-icone">
                         <img src="./img/envilope.png" />
                         <p> contact@site.com</p>
-                    </div>
+                    </a>
                    
                  
                 </div>
