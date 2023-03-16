@@ -13,10 +13,6 @@ button {
     cursor: pointer;
 }
 
-nav {
-    
-}
-
 a:only-child{
     text-decoration: none;
 }
